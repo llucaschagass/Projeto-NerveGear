@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwordArtOnline", "SwordArtOnline\SwordArtOnline.csproj", "{59307330-C725-419E-BFCB-5FB8593422E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59307330-C725-419E-BFCB-5FB8593422E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59307330-C725-419E-BFCB-5FB8593422E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59307330-C725-419E-BFCB-5FB8593422E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59307330-C725-419E-BFCB-5FB8593422E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72E3DB88-789F-4A73-AE0C-6C44A965C5BA}
+	EndGlobalSection
+EndGlobal
