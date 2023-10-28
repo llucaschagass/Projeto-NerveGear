@@ -11,6 +11,7 @@ namespace SwordArtOnline
         {
             Console.WriteLine("");
             Console.WriteLine("Iniciando o NerveGear...");
+            Console.WriteLine("");
             Console.WriteLine("Deseja iniciar qual jogo?");
             Console.WriteLine("Sword Art Online (SAO): 1");
             Console.WriteLine("Alfheim Online (ALO): 2");
@@ -21,6 +22,7 @@ namespace SwordArtOnline
             if(escolhajogo == 1){
                 Console.WriteLine("");
                 Console.WriteLine("Iniciando SAO...");
+                Console.WriteLine("");
                 Console.WriteLine("Link Start!");
                 SAO jogosao = new SAO();
             }
@@ -28,6 +30,7 @@ namespace SwordArtOnline
             else if(escolhajogo == 2){
                 Console.WriteLine("");
                 Console.WriteLine("Iniciando ALO...");
+                Console.WriteLine("");
                 Console.WriteLine("Link Start!");
                 ALO jogoalo = new ALO();
             }
@@ -35,11 +38,13 @@ namespace SwordArtOnline
             else if(escolhajogo == 3){
                 Console.WriteLine("");
                 Console.WriteLine("Iniciando GGO...");
+                Console.WriteLine("");
                 Console.WriteLine("Link Start!");
                 GGO jogoggo = new GGO();
             }
 
             else{
+                Console.WriteLine("");
                 Console.WriteLine("Opção inválida");
             }
         }
