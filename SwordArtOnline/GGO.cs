@@ -32,23 +32,102 @@ namespace SwordArtOnline
             int armas;
             string escolhaarma = "";
 
-            while (true) // Loop principal
+            while (true)
             {
-                Console.WriteLine("Escolha seu armamento:");
+                Console.WriteLine("Escolha o tipo do seu armamento:");
                 Console.WriteLine("1. Armas Ópticas");
                 Console.WriteLine("2. Armas Físicas");
                 Console.WriteLine("3. Armas Brancas");
                 Console.WriteLine("4. Descrição para cada tipo de armamento");
-                Console.WriteLine("0. Sair do jogo"); // Adicionando a opção de sair
+                Console.WriteLine("0. Sair do jogo");
+                Console.WriteLine("");
                 armas = int.Parse(Console.ReadLine());
+                Console.WriteLine("");
 
                 switch (armas)
                 {
                     case 1:
-                        escolhaarma = "Metralhadora";
+                        Console.WriteLine("Escolha sua arma:");
+                        Console.WriteLine("1. Procyon SL (Pistol)");
+                        Console.WriteLine("2. Nemesis (Sniper Rifle)");
+                        Console.WriteLine("3. Wingman (Assault Rifle)");
+                        Console.WriteLine("0. Sair do jogo");
+                        Console.WriteLine("");
+                        int tipoArmaOptica = int.Parse(Console.ReadLine());
+                        Console.WriteLine("");
+
+                        switch (tipoArmaOptica)
+                        {
+                            case 1:
+                                escolhaarma = "Procyon SL";
+                                break;
+                            case 2:
+                                escolhaarma = "Nemesis";
+                                break;
+                            case 3:
+                                escolhaarma = "Wingman";
+                                break;
+                            case 0:
+                                Console.WriteLine("");
+                                Console.WriteLine("Até logo! Obrigado por jogar.");
+                                Environment.Exit(0);
+                                break;
+                            default:
+                                Console.WriteLine("Arma inválida.");
+                                break;
+                        }
+
+                        if (tipoArmaOptica >= 1 && tipoArmaOptica <= 3)
+                        {
+                            Console.WriteLine("Arma selecionada com sucesso.");
+                        }
                         break;
                     case 2:
-                        escolhaarma = "Espingarda";
+                        Console.WriteLine("Escolha sua arma:");
+                        Console.WriteLine("1. AK-47 (Assault Rifle)");
+                        Console.WriteLine("2. M4A1 (Assault Rifle)");
+                        Console.WriteLine("3. Barrett M82 (Sniper Rifle)");
+                        Console.WriteLine("4. FN Five-seven (Pistol)");
+                        Console.WriteLine("5. UMP (Submachine Gun)");
+                        Console.WriteLine("6. Benelli M4 (Shotgun)");
+                        Console.WriteLine("0. Sair do jogo");
+                        Console.WriteLine("");
+                        int tipoArmaFisica = int.Parse(Console.ReadLine());
+                        Console.WriteLine("");
+
+                        switch (tipoArmaFisica)
+                        {
+                            case 1:
+                                escolhaarma = "AK-47";
+                                break;
+                            case 2:
+                                escolhaarma = "M4A1";
+                                break;
+                            case 3:
+                                escolhaarma = "Barrett M82";
+                                break;
+                            case 4:
+                                escolhaarma = "FN Five-seven";
+                                break;
+                            case 5:
+                                escolhaarma = "UMP";
+                                break;
+                            case 6:
+                                escolhaarma = "Benelli M4";
+                                break;
+                            case 0:
+                                Console.WriteLine("Até logo! Obrigado por jogar.");
+                                Environment.Exit(0);
+                                break;
+                            default:
+                                Console.WriteLine("Arma inválida.");
+                                break;
+                        }
+
+                        if (tipoArmaFisica >= 1 && tipoArmaFisica <= 6)
+                        {
+                            Console.WriteLine("Arma selecionada com sucesso.");
+                        }
                         break;
                     case 3:
                         escolhaarma = "Rifle";
@@ -72,7 +151,7 @@ namespace SwordArtOnline
                     case 0:
                         Console.WriteLine("");
                         Console.WriteLine("Até logo! Obrigado por jogar.");
-                        Environment.Exit(0); // Sai do jogo
+                        Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Arma desconhecida");
@@ -80,9 +159,10 @@ namespace SwordArtOnline
                         break;
                 }
 
-                if (armas != 4) // Volta ao menu se a escolha não for 4
+                if (armas != 4)
                 {
-                    Console.WriteLine($"Você escolheu a arma: {escolhaarma}");
+                    Console.WriteLine("");
+                    Console.WriteLine($"Muito bem! Você escolheu a arma {escolhaarma}, e agora deverá derrotar seus inimigos e provar ser o melhor\r\nentre os diversos players no mundo de Gun Gale Online.");
                     Console.WriteLine("");
                     Console.WriteLine("Regras do jogo: ");
                     Console.WriteLine("Diferente de Sword Art Online você não está preso.");
@@ -92,6 +172,8 @@ namespace SwordArtOnline
 
                     JogoBase baseggo = new JogoBase(nomejogador, escolhaarma);
                 }
+
+
             }
         }
     }
