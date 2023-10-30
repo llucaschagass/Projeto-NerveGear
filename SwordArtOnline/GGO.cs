@@ -130,7 +130,40 @@ namespace SwordArtOnline
                         }
                         break;
                     case 3:
-                        escolhaarma = "Rifle";
+                        Console.WriteLine("Escolha sua arma:");
+                        Console.WriteLine("1. Procyon SL (Pistol)");
+                        Console.WriteLine("2. Nemesis (Sniper Rifle)");
+                        Console.WriteLine("3. Wingman (Assault Rifle)");
+                        Console.WriteLine("0. Sair do jogo");
+                        Console.WriteLine("");
+                        int tipoArmaBranca = int.Parse(Console.ReadLine());
+                        Console.WriteLine("");
+
+                        switch (tipoArmaBranca)
+                        {
+                            case 1:
+                                escolhaarma = "Procyon SL";
+                                break;
+                            case 2:
+                                escolhaarma = "Nemesis";
+                                break;
+                            case 3:
+                                escolhaarma = "Wingman";
+                                break;
+                            case 0:
+                                Console.WriteLine("");
+                                Console.WriteLine("Até logo! Obrigado por jogar.");
+                                Environment.Exit(0);
+                                break;
+                            default:
+                                Console.WriteLine("Arma inválida.");
+                                break;
+                        }
+
+                        if (tipoArmaBranca >= 1 && tipoArmaBranca <= 3)
+                        {
+                            Console.WriteLine("Arma selecionada com sucesso.");
+                        }
                         break;
                     case 4:
                         Console.WriteLine("");
