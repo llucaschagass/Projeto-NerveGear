@@ -37,7 +37,7 @@ namespace SwordArtOnline
                 Console.WriteLine("Escolha o tipo do seu armamento:");
                 Console.WriteLine("1. Armas Ópticas");
                 Console.WriteLine("2. Armas Físicas");
-                Console.WriteLine("3. Armas Brancas");
+                Console.WriteLine("3. Armas de Punho");
                 Console.WriteLine("4. Descrição para cada tipo de armamento");
                 Console.WriteLine("0. Sair do jogo");
                 Console.WriteLine("");
@@ -136,19 +136,19 @@ namespace SwordArtOnline
                         Console.WriteLine("3. Wingman (Assault Rifle)");
                         Console.WriteLine("0. Sair do jogo");
                         Console.WriteLine("");
-                        int tipoArmaBranca = int.Parse(Console.ReadLine());
+                        int tipoArmaPunho = int.Parse(Console.ReadLine());
                         Console.WriteLine("");
 
-                        switch (tipoArmaBranca)
+                        switch (tipoArmaPunho)
                         {
                             case 1:
-                                escolhaarma = "Procyon SL";
+                                escolhaarma = "Kagemitsu G4 (Sabre de Luz)";
                                 break;
                             case 2:
-                                escolhaarma = "Nemesis";
+                                escolhaarma = "Baioneta (Faca)";
                                 break;
                             case 3:
-                                escolhaarma = "Wingman";
+                                escolhaarma = "Katana (Espada)";
                                 break;
                             case 0:
                                 Console.WriteLine("");
@@ -160,7 +160,7 @@ namespace SwordArtOnline
                                 break;
                         }
 
-                        if (tipoArmaBranca >= 1 && tipoArmaBranca <= 3)
+                        if (tipoArmaPunho >= 1 && tipoArmaPunho <= 3)
                         {
                             Console.WriteLine("Arma selecionada com sucesso.");
                         }
@@ -176,7 +176,7 @@ namespace SwordArtOnline
                         Console.WriteLine("Destinada a batalhas player x player, pois são capazes de ignorar a maioria dos meios defensivos.\r\nAs balas dessas armas podem passar por campos de defesa e causar maiores danos por acerto\r\nem comparação com armas ópticas. No entanto, as desvantagens incluem ter que carregar carregadores\r\nde balas extra pesados e o fato de que a trajetória da bala ativa é afetada pelo vento e pela umidade.\r\nAs armas nesta categoria são todas originadas de armas que existem no mundo real.");
                         Console.WriteLine("");
                         Console.WriteLine("");
-                        Console.WriteLine("Armas Brancas:");
+                        Console.WriteLine("Armas de Punho:");
                         Console.WriteLine("Com os melhores atributos de perfuração e dano a curto alcance, essas lâminas afiadas e instrumentos\r\ncortantes oferecem uma vantagem letal em combates corpo a corpo. Sua principal característica\r\né a leveza, tornando os portadores excepcionalmente ágeis no campo de batalha. Entretanto,\r\nas armas brancas têm suas desvantagens, como a ausência de capacidade de infligir danos a longa distância,\r\ntornando-as ineficazes nesse tipo de confronto.");
                         Console.WriteLine("");
                         Console.WriteLine("");
