@@ -13,3 +13,17 @@ C:\Users\Lucas\OneDrive\Área de Trabalho\Projetos Pessoais\Projeto Sword Art On
 C:\Users\Lucas\OneDrive\Área de Trabalho\Projetos Pessoais\Projeto Sword Art Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.pdb
 C:\Users\Lucas\OneDrive\Área de Trabalho\Projetos Pessoais\Projeto Sword Art Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.genruntimeconfig.cache
 C:\Users\Lucas\OneDrive\Área de Trabalho\Projetos Pessoais\Projeto Sword Art Online\SwordArtOnline\obj\Debug\net6.0\ref\SwordArtOnline.dll
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\bin\Debug\net6.0\SwordArtOnline.exe
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\bin\Debug\net6.0\SwordArtOnline.deps.json
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\bin\Debug\net6.0\SwordArtOnline.runtimeconfig.json
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\bin\Debug\net6.0\SwordArtOnline.dll
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\bin\Debug\net6.0\SwordArtOnline.pdb
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.AssemblyInfoInputs.cache
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.AssemblyInfo.cs
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.csproj.CoreCompileInputs.cache
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.dll
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\refint\SwordArtOnline.dll
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.pdb
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\SwordArtOnline.genruntimeconfig.cache
+C:\Users\mtsfs\Documents\Programação\Projeto-Sword-Art-Online\SwordArtOnline\obj\Debug\net6.0\ref\SwordArtOnline.dll
